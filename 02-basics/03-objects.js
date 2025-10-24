@@ -24,6 +24,6 @@ jsUser.email = "ramram13";
 jsUser.greeting = function () {
     console.log(`hello ji kese ho sare ${this.name}`);
 }
-console.log(jsUser.greeting);
+console.log(jsUser.greeting());
 
 

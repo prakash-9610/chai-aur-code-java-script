@@ -6,7 +6,7 @@ console.table([value, password, userId, UserCity])
 
 /* var keyword scope based hota hai matlab hai ki 
 agar aap var ko scope ke inside me decalre karte4 ho to ye 
-outside me accessable hoga 
+outside me accessable nhi hoga 
 */
 
  userId = "13"

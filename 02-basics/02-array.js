@@ -7,7 +7,7 @@ const dc_H = ["superman", "flash", "batman"];
 // const all_H=marver_H.concat(dc_H);
 // console.log(all_H);
 
-const all_new_heros = [...marver_H, ...dc_H];
+// const all_new_heros = [...marver_H, ...dc_H]; // spreading method
 // console.log(all_new_heros);
 
 // const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 6, [4, 5]]];
