@@ -1,0 +1,88 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page style */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Buttons in navbar */
+.nav-btn {
+    background-color: #f0f0f0;
+    border: 2px solid #555;
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.nav-btn:hover {
+    background-color: #ccc;
+}
+
+/* Main heading */
+h1 {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Color boxes container */
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 30px auto;
+}
+
+/* Color boxes */
+.button {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Each color */
+#grey {
+    background-color: gray;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Instruction text */
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5em;
+}

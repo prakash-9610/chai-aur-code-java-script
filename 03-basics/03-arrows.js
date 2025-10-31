@@ -24,7 +24,7 @@ chai();
 
 // const addTwo = (num1,num2) =>( num1 + num2);
 
-const addTwo = (num1,num2) =>({username:"prakash"});
+const addTwo = (num1,num2) =>({username:"prakash"}); // it can return this 
 console.log(addTwo(2, 3));
 
 
